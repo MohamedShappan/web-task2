@@ -1,0 +1,92 @@
+body{
+    width: 1440;
+    background-color: #010101;
+}
+.header img{
+    width: 50px;
+    float: left;
+    padding-left: 30px;
+}
+.header ul{
+    margin: auto;
+    float: right;
+}
+.header ul li{
+    margin: 0px 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    font-size: 20px;
+    display: inline-block;
+}
+.clear{
+    clear: both;
+}
+.first_sec{
+    flex-direction: column;
+    width: 117%;
+    height: 895px;
+    left: 0px;
+    top: 129px;
+    display: flex;
+    align-items: center;
+    background-image: url(task2.png);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+}
+.first_sec h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 128px;
+line-height: 155px;
+}
+.first_sec h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+.first_sec input{
+    text-align: center;
+    background: #E4E4E4;
+    border: 3px solid #010101;
+    border-radius: 70px;
+    width: 233px;
+    height: 104px;
+    font-size: 30px;
+}
+.seco_sec{
+    display: flex;
+    align-items: center;
+}
+.seco_sec .item{
+    padding-left: 62px;
+    width: 25%;
+    height: 220;
+}
+.seco_sec img{
+    border-radius: 50%;
+    outline-color: red;
+    outline-width: 5px;
+    outline-style: solid;
+    border: 3px solid;
+}
+.third{
+    width: 100vw;
+    height: 180px;
+    padding-left: 4%;
+    margin: auto;
+}
+.third div{
+    width: 33.333333%;
+    float: left;
+}
